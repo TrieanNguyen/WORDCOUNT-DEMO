@@ -16,3 +16,6 @@
       hadoop-mapreduce-client-core-2.7.7.jar:operation/:.                                         -d Demo reduce.java
     * javac -cp $HADOOP_HOME/share/hadoop/common/hadoop-common-2.7.7.jar:$HADOOP_HOME/share/hadoop/mapreduce/
       hadoop-mapreduce-client-core-2.7.7.jar:operation/:.                                         -d Demo runner.java
+* STEP 3: Create file Jar:
+    * Run command:  jar -cvf Wordcount.jar -C Demo/ .
+    
