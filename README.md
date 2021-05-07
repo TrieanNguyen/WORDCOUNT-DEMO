@@ -18,6 +18,14 @@
       hadoop-mapreduce-client-core-2.7.7.jar:operation/:.                                         -d Demo runner.java
 * STEP 3: Create file Jar:
     * Run command:  jar -cvf Wordcount.jar -C Demo/ .
-* STEP 4: Run file jar:
-    * Run command:  hadoop jar wordcount.jar Packagedemo.runner.java input output 
+* STEP 4: Create input on hdfs:
+    * Run command: hdfs dfs -mkdir -p input
+* STEP 5: Put file data to folder input on HDFS
+    * Run command: hdfs dfs -put /home/anhtrieu/Demo-WordCount-Map-Reduce/data.txt input
+* STEP 6: Run file jar
+    * Run command: hadoop jar wordcount.jar Packagedemo.runner input output
+* STEP 7: Read file output
+    * Run command: hdfs dfs -cat output/part-r-00000
+    
+
     
