@@ -19,5 +19,5 @@
 * STEP 3: Create file Jar:
     * Run command:  jar -cvf Wordcount.jar -C Demo/ .
 * STEP 4: Run file jar:
-    * Run command:  hadoop jar wordcount.jar Packedemo.runner.java input output 
+    * Run command:  hadoop jar wordcount.jar Packagedemo.runner.java input output 
     
