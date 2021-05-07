@@ -4,7 +4,7 @@
 * In this demo, count the number of times HCMUTE students won scholarships from 2018 to 2020
 * Project include: map.java, reduce.java, runner.java, data.txt
 ## INSTALL PROJECT WORD-COUNT
-* Install project wordcount, run command: [WordCount_Demo] 
+* Install project wordcount, run command: [WordCount_Demo](https://github.com/TrieanNguyen/WORDCOUNT-DEMO.git)
 ## RUN WORDCOUNT BY HADOOP 
 
 * STEP 1: Create folder to Demo
