@@ -11,11 +11,11 @@
     * mkdir Demo
 * STEP 2: Package the java classes(map.java, reduce.java. runner.java) and hadoop-mapreduce and hadoop-common libraries in a jar file:
     * javac -cp $HADOOP_HOME/share/hadoop/common/hadoop-common-2.7.7.jar:$HADOOP_HOME/share/hadoop/mapreduce/
-      hadoop-mapreduce-client-core-2.7.7.jar:operation/:.                                         -d Demo map.java
+      hadoop-mapreduce-client-core-2.7.7.jar:Demo/:.                                         -d Demo map.java
     * javac -cp $HADOOP_HOME/share/hadoop/common/hadoop-common-2.7.7.jar:$HADOOP_HOME/share/hadoop/mapreduce/
-      hadoop-mapreduce-client-core-2.7.7.jar:operation/:.                                         -d Demo reduce.java
+      hadoop-mapreduce-client-core-2.7.7.jar:Demo/:.                                         -d Demo reduce.java
     * javac -cp $HADOOP_HOME/share/hadoop/common/hadoop-common-2.7.7.jar:$HADOOP_HOME/share/hadoop/mapreduce/
-      hadoop-mapreduce-client-core-2.7.7.jar:operation/:.                                         -d Demo runner.java
+      hadoop-mapreduce-client-core-2.7.7.jar:Demo/:.                                         -d Demo runner.java
 * STEP 3: Create file Jar:
     * Run command:  jar -cvf Wordcount.jar -C Demo/ .
 * STEP 4: Create input on hdfs:
