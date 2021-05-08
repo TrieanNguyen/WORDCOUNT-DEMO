@@ -18,9 +18,9 @@
 * STEP 4: Create input on hdfs:
     * Run command: hdfs dfs -mkdir -p input
 * STEP 5: Put file data to folder input on HDFS
-    * Run command: hdfs dfs -put /home/anhtrieu/Demo-WordCount-Map-Reduce/data.txt input
+    * Run command: hdfs dfs -put /WORDCOUNT-DEMO/* input
 * STEP 6: Run file jar
-    * Run command: hadoop jar wordcount.jar Packagedemo.runner input output
+    * Run command: hadoop jar Wordcount.jar PackageDemo.runner input output
 * STEP 7: Read file output
     * Run command: hdfs dfs -cat output/part-r-00000
     
