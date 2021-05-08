@@ -23,6 +23,7 @@
     * Run command: hadoop jar Wordcount.jar PackageDemo.runner input output
 * STEP 7: Read file output
     * Run command: hdfs dfs -cat output/part-00000
+Here, you already finish demo Wordcount use Mapreduce, Gook Luck!!!!
     
 
     
