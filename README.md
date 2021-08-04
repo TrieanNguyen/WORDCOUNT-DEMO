@@ -2,9 +2,10 @@
 ## INSTRODUCTION
 * Run demo Wordcount to performances Map-Reduce
 * In this demo, count the number of times HCMUTE students won scholarships from 2018 to 2020
-* Project include: map.java, reduce.java, runner.java, data.txt
-* Use file data.txt together run Map-Reduce on Hadoop and Spark
-* Target for Project: Use Word-count to compare Map-Reduce on Hadoop and Map-Reduce on Spark.
+* Compare Map-reduce times on Hadoop and Spark.
+* Data will be save HDFS.
+* Create file jar to run on Hadoop by create 3 functions,       Map, Reduce, Runner to count words.
+* Create jar files to run on Spark using SBT compilers to    build projects for Scala.
 
 ## INSTALL PROJECT WORD-COUNT
 * Install project wordcount, run command: [WordCount_Demo](https://github.com/TrieanNguyen/WORDCOUNT-DEMO.git)
