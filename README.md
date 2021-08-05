@@ -1,4 +1,4 @@
-# WORDCOUNT-DEMO
+# WORDCOUNT
 ## INSTRODUCTION
 * Run demo Wordcount to performances Map-Reduce
 * In this demo, count the number of times HCMUTE students won scholarships from 2018 to 2020
